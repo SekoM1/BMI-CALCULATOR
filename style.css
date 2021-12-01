@@ -26,7 +26,7 @@ font-weight: 600;
     text-align: left;
     margin-left: 150px;
 }
-#height, #weight{
+#height, #weight, .form-control{
     color: 222f3e;
     text-align: left;
     font-size: 20px;
@@ -38,11 +38,19 @@ font-weight: 600;
     width: 200px;
 }
 
-#height:focus, #weight:focus{
+.genderr{
+    margin-top:30px;
+    margin-bottom: 30px;
+
+   
+}
+
+#height:focus, #weight:focus, .form-group:focus, .form-control:focus{
     border-bottom: 2px solid #341f97;
     width: 300px;
     transition: 0.5s;
 }
+
 
 #btn{
     font-family: inherit;
@@ -62,6 +70,12 @@ font-weight: 600;
 }
 
 .btn:hover{
+    box-shadow: 1px 1px 10px #341f97;
+}
+
+#info{  
     font-size: 12px;
     font-family: inherit;
 }
+
+/* age, gender */
